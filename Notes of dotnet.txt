@@ -1,0 +1,24 @@
+	install dotnet and run
+check version -> dotnet --version
+if it is not specified in command prompt just copied the dotnet path from local space and open system environments and select path and click edit and paste that copied path there then it will specify it in command prompt.
+-> dotnet new console -o myapp
+-> dotnet run
+-> open program class in notepad by -> notepad program.cs
+-> console.writeline(DateTime.Now)
+
+-> signalR is for achieveing real-time web application which means push message to connected clients through server-side code
+-> hubs is a pipeline to call methods of clients and server 
+-> signalR having text protocol based JSON and binary protocol based message pack
+
+->Problem space:
+->browser make a requests and server gives response in asp.net core we use kestrel as server
+-> that requests from client is come only if page is refreshed so if we do some changes in one page and go to other page the changes won't reflect there we need to do refresh then only requests went to server by client and fetch data and response from server.
+->this is called pull based nature of http
+
+SignalR Push models
+-> to achieve this push models give the response to client without client requests whenever the data is needed
+-> based on client and server signalR api negotiate which push model protocol it gonna use
+
+1). WebSockets
+2). Server Sent Events
+3). Long Polling

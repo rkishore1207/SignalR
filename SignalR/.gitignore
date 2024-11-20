@@ -1,0 +1,79 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.log
+*.cache
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configuration files
+appsettings*.json
+!appsettings.json # Keep the default appsettings.json
+!appsettings.Development.json # Keep the development-specific appsettings if needed
+
+# IIS config files
+.vscode/
+.vs/
+.vscode-server/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Package manager files
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+
+# Code analysis
+*.ruleset
+.vsconfig
+
+# Visual Studio Code
+.vscode/
+
+# Additional files
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# ASP.NET specific
+App_Data/
+App_Start/
+Global.asax.*
+*.config
+
+# Bundles and minified scripts
+*.min.js
+*.min.css
+
+# Publish directory
+wwwroot/
+
+# Generated files from Scaffolding
+ScaffoldingReadMe.txt
+
+# Temporary files
+*.tmp
+*.temp
